@@ -3,7 +3,7 @@ import ProfileList from "./components/profile/profileList";
 
 const App = () => {
   return (
-    <div>
+    <div className={classes.App}>
       <ProfileList />
     </div>
   );

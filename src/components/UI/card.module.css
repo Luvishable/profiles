@@ -1,0 +1,13 @@
+.card {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: var(--box-shadow);
+  transition: all 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
